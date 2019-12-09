@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:DeprecatedElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/DeprecatedElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/DeprecatedElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_DYhSoBpdEeqxfPZY0DDjCg" name="alfred-majordome" visibility="private">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_DkEbUBpdEeqxfPZY0DDjCg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -315,15 +315,15 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_wQwE0BqOEeq9h_Xo8_vs8g" name="dataPart" type="_nNdcMBqKEeq9h_Xo8_vs8g" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_auckgBqPEeq9h_Xo8_vs8g" name="pageHeader" type="_D6YJEBqKEeq9h_Xo8_vs8g" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_jZPxcBqPEeq9h_Xo8_vs8g" name="pageFooter" type="_HNXj0BqKEeq9h_Xo8_vs8g" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_vCQb8BqPEeq9h_Xo8_vs8g" name="menu" type="__Gq-8BqIEeq9h_Xo8_vs8g"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_qJObABqQEeq9h_Xo8_vs8g" name="data" type="_EIg-oBp9Eeq9h_Xo8_vs8g"/>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_NtRiUBqREeq9h_Xo8_vs8g" name="Connector11">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_NtT-kBqREeq9h_Xo8_vs8g" partWithPort="_auckgBqPEeq9h_Xo8_vs8g" role="_1TGScBqQEeq9h_Xo8_vs8g"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_NtUloBqREeq9h_Xo8_vs8g" partWithPort="_vCQb8BqPEeq9h_Xo8_vs8g" role="_y-pjkBqQEeq9h_Xo8_vs8g"/>
-      </ownedConnector>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_aURpoBqSEeq9h_Xo8_vs8g" name="Menu" aggregation="composite"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_Oj5BQBqREeq9h_Xo8_vs8g" name="Connector12">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_Oj62cBqREeq9h_Xo8_vs8g" partWithPort="_wQwE0BqOEeq9h_Xo8_vs8g" role="_62-KsBqQEeq9h_Xo8_vs8g"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_Oj7dgBqREeq9h_Xo8_vs8g" partWithPort="_qJObABqQEeq9h_Xo8_vs8g" role="_3d8ZYBqQEeq9h_Xo8_vs8g"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ftcGsBqSEeq9h_Xo8_vs8g" name="Connector12">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ftd74BqSEeq9h_Xo8_vs8g" role="_aURpoBqSEeq9h_Xo8_vs8g"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ftd74RqSEeq9h_Xo8_vs8g" partWithPort="_auckgBqPEeq9h_Xo8_vs8g" role="_1TGScBqQEeq9h_Xo8_vs8g"/>
       </ownedConnector>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Gsd6YBqDEeq9h_Xo8_vs8g" name="read"/>
     </packagedElement>
@@ -491,8 +491,8 @@
   <Blocks:Block xmi:id="_D6gE4BqKEeq9h_Xo8_vs8g" base_Class="_D6YJEBqKEeq9h_Xo8_vs8g"/>
   <Blocks:Block xmi:id="_HNe4kBqKEeq9h_Xo8_vs8g" base_Class="_HNXj0BqKEeq9h_Xo8_vs8g"/>
   <Blocks:Block xmi:id="_nNl_EBqKEeq9h_Xo8_vs8g" base_Class="_nNdcMBqKEeq9h_Xo8_vs8g"/>
-  <Blocks:NestedConnectorEnd xmi:id="_NtXo8BqREeq9h_Xo8_vs8g" base_Element="_NtT-kBqREeq9h_Xo8_vs8g" propertyPath="_auckgBqPEeq9h_Xo8_vs8g" base_ConnectorEnd="_NtT-kBqREeq9h_Xo8_vs8g"/>
-  <Blocks:NestedConnectorEnd xmi:id="_NtZeIBqREeq9h_Xo8_vs8g" base_Element="_NtUloBqREeq9h_Xo8_vs8g" propertyPath="_vCQb8BqPEeq9h_Xo8_vs8g" base_ConnectorEnd="_NtUloBqREeq9h_Xo8_vs8g"/>
   <Blocks:NestedConnectorEnd xmi:id="_Oj7dgRqREeq9h_Xo8_vs8g" base_Element="_Oj62cBqREeq9h_Xo8_vs8g" propertyPath="_wQwE0BqOEeq9h_Xo8_vs8g" base_ConnectorEnd="_Oj62cBqREeq9h_Xo8_vs8g"/>
   <Blocks:NestedConnectorEnd xmi:id="_Oj8roBqREeq9h_Xo8_vs8g" base_Element="_Oj7dgBqREeq9h_Xo8_vs8g" propertyPath="_qJObABqQEeq9h_Xo8_vs8g" base_ConnectorEnd="_Oj7dgBqREeq9h_Xo8_vs8g"/>
+  <DeprecatedElements:FlowPort xmi:id="_aUdP0BqSEeq9h_Xo8_vs8g" base_Port="_aURpoBqSEeq9h_Xo8_vs8g" direction="out"/>
+  <Blocks:NestedConnectorEnd xmi:id="_ftd74hqSEeq9h_Xo8_vs8g" base_Element="_ftd74RqSEeq9h_Xo8_vs8g" propertyPath="_auckgBqPEeq9h_Xo8_vs8g" base_ConnectorEnd="_ftd74RqSEeq9h_Xo8_vs8g"/>
 </xmi:XMI>
