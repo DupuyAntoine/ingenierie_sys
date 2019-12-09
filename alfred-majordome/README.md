@@ -6,7 +6,8 @@
 
 ## Diagramme d'Exigences 
 
-TODO
+Le diagramme d'exigences permet de mettre en forme les exigences explicites, et implicites nécessaires à la modélisation de la solution. Dans le cas du Majordome Alfred, il est impératif d'exiger une interface homme machine (boitier par exemple) qui permet à l'utilisateur de faire de la récupération de données depuis des capteurs et de les afficher. Les exigences sont donc ici établies et détaillées.
+
 ![Requirement](Requirement.png)
 
 ## Diagramme de Cas d'Utilisation
