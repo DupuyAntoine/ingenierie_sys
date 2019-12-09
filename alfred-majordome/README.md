@@ -13,15 +13,20 @@ Le diagramme d'exigences permet de mettre en forme les exigences explicites, et 
 ## Diagramme de Cas d'Utilisation
 
 TODO
+
 ![UseCase](https://github.com/DupuyAntoine/ingenierie_sys/blob/master/alfred-majordome/UseCase.PNG)
 
 ## Diagramme de Définition de Bloc
 
 TODO
 
+![Block](https://github.com/DupuyAntoine/ingenierie_sys/blob/master/alfred-majordome/Block.png)
+
 ## Diagramme de Blocs Internes
 
 TODO
+
+![InternalBlock](https://github.com/DupuyAntoine/ingenierie_sys/blob/master/alfred-majordome/InternalBlock.png)
 
 ## Diagramme d'Etat
 
