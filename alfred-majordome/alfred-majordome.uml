@@ -53,6 +53,25 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_GpN_oBpjEeqN3eJ0RCeYUw" name="afficher des conseils" type="_9KHn8BpiEeqN3eJ0RCeYUw" association="_GpMKcBpjEeqN3eJ0RCeYUw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_GpN_oRpjEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_GpMKcBpjEeqN3eJ0RCeYUw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-lchABpjEeqxfPZY0DDjCg" name="Indicateur">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_DFMp0BpkEeqxfPZY0DDjCg" name="value" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KBnM4BplEeqxfPZY0DDjCg" name="unit" type="_f_7TwBpkEeqxfPZY0DDjCg" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gjHD4hplEeqxfPZY0DDjCg" name="unit" type="_f_7TwBpkEeqxfPZY0DDjCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gjHq8BplEeqxfPZY0DDjCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gjHq8RplEeqxfPZY0DDjCg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_naJNIBplEeqxfPZY0DDjCg" name="type" visibility="package" type="_f_7TwBpkEeqxfPZY0DDjCg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_f_7TwBpkEeqxfPZY0DDjCg" name="Unit" visibility="package">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mP-qoBpmEeqxfPZY0DDjCg" name="CELSIUS"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_uFaV0BpmEeqxfPZY0DDjCg" name="POURCENT"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_5rck0BpmEeqxfPZY0DDjCg" name="WATT"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_OdvIABpnEeqxfPZY0DDjCg" name="LITER"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ToPeABpnEeqxfPZY0DDjCg" name="KILOGRAM"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_d5V6YBpnEeqxfPZY0DDjCg" name="KMPERHOUR"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Dd1QcBpdEeqxfPZY0DDjCg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dd7XEBpdEeqxfPZY0DDjCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -115,4 +134,5 @@
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_WB3E8BpgEeqxfPZY0DDjCg" base_Class="_V_j-4BpgEeqxfPZY0DDjCg"/>
+  <Blocks:Block xmi:id="_-lhZgBpjEeqxfPZY0DDjCg" base_Class="_-lchABpjEeqxfPZY0DDjCg"/>
 </xmi:XMI>

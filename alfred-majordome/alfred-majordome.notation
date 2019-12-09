@@ -176,12 +176,101 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_UM9_4BpgEeqxfPZY0DDjCg" type="PapyrusUMLClassDiagram" name="Block" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_-lj1wBpjEeqxfPZY0DDjCg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_-lkc0BpjEeqxfPZY0DDjCg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_-lkc0RpjEeqxfPZY0DDjCg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_-llD4BpjEeqxfPZY0DDjCg" y="5"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_-llD4RpjEeqxfPZY0DDjCg" type="Class_AttributeCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_DFXo8BpkEeqxfPZY0DDjCg" type="Property_ClassAttributeLabel">
+          <element href="alfred-majordome.uml#_DFMp0BpkEeqxfPZY0DDjCg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_DFXo8RpkEeqxfPZY0DDjCg"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_naOFoBplEeqxfPZY0DDjCg" type="Property_ClassAttributeLabel">
+          <element href="alfred-majordome.uml#_naJNIBplEeqxfPZY0DDjCg"/>
+          <layoutConstraint xsi:type="notation:Location" xmi:id="_naOFoRplEeqxfPZY0DDjCg"/>
+        </children>
+        <styles xsi:type="notation:TitleStyle" xmi:id="_-llD4hpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_-llD4xpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_-llD5BpjEeqxfPZY0DDjCg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-llD5RpjEeqxfPZY0DDjCg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_-llD5hpjEeqxfPZY0DDjCg" type="Class_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_-llD5xpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_-llD6BpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_-llD6RpjEeqxfPZY0DDjCg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-llD6hpjEeqxfPZY0DDjCg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_-llD6xpjEeqxfPZY0DDjCg" type="Class_NestedClassifierCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_-llD7BpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_-llD7RpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_-llD7hpjEeqxfPZY0DDjCg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-llD7xpjEeqxfPZY0DDjCg"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_-l0UcBpjEeqxfPZY0DDjCg" type="StereotypeLabel">
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_-l0UcRpjEeqxfPZY0DDjCg" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-l0UchpjEeqxfPZY0DDjCg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_-l07gBpjEeqxfPZY0DDjCg" type="StereotypeBrace">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_-l07gRpjEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:StringValueStyle" xmi:id="_-l07ghpjEeqxfPZY0DDjCg" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-l07gxpjEeqxfPZY0DDjCg"/>
+      </children>
+      <children xsi:type="notation:Compartment" xmi:id="_-l4l4BpjEeqxfPZY0DDjCg" type="Flow Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l5M8BpjEeqxfPZY0DDjCg" type="constraints"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l5M8RpjEeqxfPZY0DDjCg" type="Parts"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l5M8hpjEeqxfPZY0DDjCg" type="Proxy Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l50ABpjEeqxfPZY0DDjCg" type="Full Ports"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l50ARpjEeqxfPZY0DDjCg" type="References"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l50AhpjEeqxfPZY0DDjCg" type="Flow Properties"/>
+      <children xsi:type="notation:Compartment" xmi:id="_-l50AxpjEeqxfPZY0DDjCg" type="Parameters"/>
+      <element href="alfred-majordome.uml#_-lchABpjEeqxfPZY0DDjCg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-lj1wRpjEeqxfPZY0DDjCg" x="20" y="40"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_-l6bEBpjEeqxfPZY0DDjCg" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_-l6bERpjEeqxfPZY0DDjCg"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_-l6bExpjEeqxfPZY0DDjCg" name="BASE_ELEMENT">
+        <eObjectValue href="alfred-majordome.uml#_-lchABpjEeqxfPZY0DDjCg"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-l6bEhpjEeqxfPZY0DDjCg" x="200"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_f_8h4BpkEeqxfPZY0DDjCg" type="Enumeration_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_f_8h4hpkEeqxfPZY0DDjCg" type="Enumeration_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_f_8h4xpkEeqxfPZY0DDjCg" type="Enumeration_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_f_8h5BpkEeqxfPZY0DDjCg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_f_9I8BpkEeqxfPZY0DDjCg" type="Enumeration_LiteralCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_f_9I8RpkEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_f_9I8hpkEeqxfPZY0DDjCg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_f_9I8xpkEeqxfPZY0DDjCg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_f_9I9BpkEeqxfPZY0DDjCg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_gAD2oBpkEeqxfPZY0DDjCg" type="compartment_shape_display">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_gAD2oRpkEeqxfPZY0DDjCg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_gAD2ohpkEeqxfPZY0DDjCg"/>
+      </children>
+      <element href="alfred-majordome.uml#_f_7TwBpkEeqxfPZY0DDjCg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_f_8h4RpkEeqxfPZY0DDjCg" x="560" y="40"/>
+    </children>
     <styles xsi:type="notation:StringValueStyle" xmi:id="_UM9_4RpgEeqxfPZY0DDjCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_UM9_4hpgEeqxfPZY0DDjCg"/>
     <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_UM9_4xpgEeqxfPZY0DDjCg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
       <owner href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
     </styles>
     <element href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+    <edges xsi:type="notation:Connector" xmi:id="_-l6bFBpjEeqxfPZY0DDjCg" type="StereotypeCommentLink" source="_-lj1wBpjEeqxfPZY0DDjCg" target="_-l6bEBpjEeqxfPZY0DDjCg">
+      <styles xsi:type="notation:FontStyle" xmi:id="_-l6bFRpjEeqxfPZY0DDjCg"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_-l6bGRpjEeqxfPZY0DDjCg" name="BASE_ELEMENT">
+        <eObjectValue href="alfred-majordome.uml#_-lchABpjEeqxfPZY0DDjCg"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_-l6bFhpjEeqxfPZY0DDjCg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_-l6bFxpjEeqxfPZY0DDjCg"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_-l6bGBpjEeqxfPZY0DDjCg"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_XSmUEBpgEeqxfPZY0DDjCg" type="CompositeStructure" name="InternalBlock" measurementUnit="Pixel">
     <children xsi:type="notation:Shape" xmi:id="_XSyhUBpgEeqxfPZY0DDjCg" type="Class_Shape">
@@ -196,13 +285,13 @@
       <element href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
       <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XSyhURpgEeqxfPZY0DDjCg" x="40" y="40" width="500" height="250"/>
     </children>
-    <children xsi:type="notation:Shape" xmi:id="_XXk6sBpgEeqxfPZY0DDjCg" type="StereotypeComment">
-      <styles xsi:type="notation:TitleStyle" xmi:id="_XXk6sRpgEeqxfPZY0DDjCg"/>
-      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_XXmv4BpgEeqxfPZY0DDjCg" name="BASE_ELEMENT">
+    <children xsi:type="notation:Shape" xmi:id="_rPjDUBpjEeqxfPZY0DDjCg" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_rPjDURpjEeqxfPZY0DDjCg"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_rPjqYBpjEeqxfPZY0DDjCg" name="BASE_ELEMENT">
         <eObjectValue href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XXk6shpgEeqxfPZY0DDjCg" x="240" y="40"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rPjDUhpjEeqxfPZY0DDjCg" x="240" y="40"/>
     </children>
     <styles xsi:type="notation:StringValueStyle" xmi:id="_XSmUERpgEeqxfPZY0DDjCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_XSmUEhpgEeqxfPZY0DDjCg"/>
@@ -210,15 +299,15 @@
       <owner href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
     </styles>
     <element href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
-    <edges xsi:type="notation:Connector" xmi:id="_XXmv4RpgEeqxfPZY0DDjCg" type="StereotypeCommentLink" source="_XSyhUBpgEeqxfPZY0DDjCg" target="_XXk6sBpgEeqxfPZY0DDjCg">
-      <styles xsi:type="notation:FontStyle" xmi:id="_XXmv4hpgEeqxfPZY0DDjCg"/>
-      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_XXnW8RpgEeqxfPZY0DDjCg" name="BASE_ELEMENT">
+    <edges xsi:type="notation:Connector" xmi:id="_rPjqYRpjEeqxfPZY0DDjCg" type="StereotypeCommentLink" source="_XSyhUBpgEeqxfPZY0DDjCg" target="_rPjDUBpjEeqxfPZY0DDjCg">
+      <styles xsi:type="notation:FontStyle" xmi:id="_rPjqYhpjEeqxfPZY0DDjCg"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_rPjqZhpjEeqxfPZY0DDjCg" name="BASE_ELEMENT">
         <eObjectValue href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_XXmv4xpgEeqxfPZY0DDjCg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_XXmv5BpgEeqxfPZY0DDjCg"/>
-      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_XXnW8BpgEeqxfPZY0DDjCg"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_rPjqYxpjEeqxfPZY0DDjCg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_rPjqZBpjEeqxfPZY0DDjCg"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_rPjqZRpjEeqxfPZY0DDjCg"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
