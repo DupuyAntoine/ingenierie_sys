@@ -1,2 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_13kHsBpfEeqxfPZY0DDjCg" type="PapyrusUMLClassDiagram" name="Requirement" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_13kHsRpfEeqxfPZY0DDjCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_13kHshpfEeqxfPZY0DDjCg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_13kHsxpfEeqxfPZY0DDjCg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+    </styles>
+    <element href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_BG-mcBpgEeqxfPZY0DDjCg" type="UseCase" name="UseCase" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_BG_NgBpgEeqxfPZY0DDjCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_BG_NgRpgEeqxfPZY0DDjCg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_BG_NghpgEeqxfPZY0DDjCg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.useCase">
+      <owner href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+    </styles>
+    <element href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_UM9_4BpgEeqxfPZY0DDjCg" type="PapyrusUMLClassDiagram" name="Block" measurementUnit="Pixel">
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_UM9_4RpgEeqxfPZY0DDjCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_UM9_4hpgEeqxfPZY0DDjCg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_UM9_4xpgEeqxfPZY0DDjCg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
+      <owner href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+    </styles>
+    <element href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_XSmUEBpgEeqxfPZY0DDjCg" type="CompositeStructure" name="InternalBlock" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_XSyhUBpgEeqxfPZY0DDjCg" type="Class_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_XS0WgBpgEeqxfPZY0DDjCg" type="Class_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_XS0WgRpgEeqxfPZY0DDjCg" type="Class_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_XS0WghpgEeqxfPZY0DDjCg" y="15"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_XS09kBpgEeqxfPZY0DDjCg" type="Class_StructureCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_XS09kRpgEeqxfPZY0DDjCg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XS09khpgEeqxfPZY0DDjCg"/>
+      </children>
+      <element href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XSyhURpgEeqxfPZY0DDjCg" x="40" y="40" width="500" height="250"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_XXk6sBpgEeqxfPZY0DDjCg" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_XXk6sRpgEeqxfPZY0DDjCg"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_XXmv4BpgEeqxfPZY0DDjCg" name="BASE_ELEMENT">
+        <eObjectValue href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XXk6shpgEeqxfPZY0DDjCg" x="240" y="40"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_XSmUERpgEeqxfPZY0DDjCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_XSmUEhpgEeqxfPZY0DDjCg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_XSmUExpgEeqxfPZY0DDjCg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.internalblock">
+      <owner href="alfred-majordome.uml#_DYhSoBpdEeqxfPZY0DDjCg"/>
+    </styles>
+    <element href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
+    <edges xsi:type="notation:Connector" xmi:id="_XXmv4RpgEeqxfPZY0DDjCg" type="StereotypeCommentLink" source="_XSyhUBpgEeqxfPZY0DDjCg" target="_XXk6sBpgEeqxfPZY0DDjCg">
+      <styles xsi:type="notation:FontStyle" xmi:id="_XXmv4hpgEeqxfPZY0DDjCg"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_XXnW8RpgEeqxfPZY0DDjCg" name="BASE_ELEMENT">
+        <eObjectValue href="alfred-majordome.uml#_V_j-4BpgEeqxfPZY0DDjCg"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_XXmv4xpgEeqxfPZY0DDjCg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_XXmv5BpgEeqxfPZY0DDjCg"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_XXnW8BpgEeqxfPZY0DDjCg"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
