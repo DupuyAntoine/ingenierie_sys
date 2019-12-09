@@ -386,6 +386,25 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_V0JKghqLEeq9h_Xo8_vs8g" name="datapart" type="_nNdcMBqKEeq9h_Xo8_vs8g" association="_V0GuQBqLEeq9h_Xo8_vs8g"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_mgAPwBrLEeq9h_Xo8_vs8g" name="DoorSecuritySystem">
+      <region xmi:type="uml:Region" xmi:id="_nhor4BrLEeq9h_Xo8_vs8g" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_LL-ocBrMEeq9h_Xo8_vs8g" name="activate" source="_tOKw4BrLEeq9h_Xo8_vs8g" target="_CDh2MBrMEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_rAuMcBrMEeq9h_Xo8_vs8g" name="[nb_pers &lt; 5]" source="_j8OO8BrMEeq9h_Xo8_vs8g" target="_x7YG4BrLEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_s6Qg8BrMEeq9h_Xo8_vs8g" name="check" source="_CDh2MBrMEeq9h_Xo8_vs8g" target="_j8OO8BrMEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_5r0H4BrMEeq9h_Xo8_vs8g" name="[nb_pers >= 5]" source="_j8OO8BrMEeq9h_Xo8_vs8g" target="_x2OEoBrMEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_FMD38BrNEeq9h_Xo8_vs8g" name="[nb_pers = 5]" source="_x7YG4BrLEeq9h_Xo8_vs8g" target="_x2OEoBrMEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_HsJ2IBrNEeq9h_Xo8_vs8g" name="[time_since_closure = 2h]" source="_x2OEoBrMEeq9h_Xo8_vs8g" target="_x7YG4BrLEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_ZsYr8BrOEeq9h_Xo8_vs8g" name="desactivate" source="_x7YG4BrLEeq9h_Xo8_vs8g" target="_SkrpcBrOEeq9h_Xo8_vs8g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_lEEV4BrOEeq9h_Xo8_vs8g" name="ending" source="_SkrpcBrOEeq9h_Xo8_vs8g" target="_haV2IBrOEeq9h_Xo8_vs8g"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_tOKw4BrLEeq9h_Xo8_vs8g" name="Inactive"/>
+        <subvertex xmi:type="uml:State" xmi:id="_x7YG4BrLEeq9h_Xo8_vs8g" name="DoorOpen"/>
+        <subvertex xmi:type="uml:State" xmi:id="_CDh2MBrMEeq9h_Xo8_vs8g" name="On"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_j8OO8BrMEeq9h_Xo8_vs8g" name="nb_pers" kind="choice"/>
+        <subvertex xmi:type="uml:State" xmi:id="_x2OEoBrMEeq9h_Xo8_vs8g" name="DoorClosed"/>
+        <subvertex xmi:type="uml:State" xmi:id="_SkrpcBrOEeq9h_Xo8_vs8g" name="Off"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_haV2IBrOEeq9h_Xo8_vs8g" name="Inactive"/>
+      </region>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Dd1QcBpdEeqxfPZY0DDjCg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dd7XEBpdEeqxfPZY0DDjCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -445,6 +464,12 @@
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__rCU0BrLEeq9h_Xo8_vs8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__rNT8BrLEeq9h_Xo8_vs8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_WB3E8BpgEeqxfPZY0DDjCg" base_Class="_V_j-4BpgEeqxfPZY0DDjCg"/>
