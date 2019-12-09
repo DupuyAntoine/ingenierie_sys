@@ -8,12 +8,36 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_V_j-4BpgEeqxfPZY0DDjCg" name="Block13"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_4CJTcBpgEeqN3eJ0RCeYUw" name="Système"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bvyboBphEeqN3eJ0RCeYUw" name="Mesurer un indicateur de santé de la maison">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_YVUqcBpiEeqN3eJ0RCeYUw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_x7PNUBplEeqN3eJ0RCeYUw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-y7cABpmEeqN3eJ0RCeYUw" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_AQDhUBpnEeqN3eJ0RCeYUw" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_B8a8gRpnEeqN3eJ0RCeYUw" name="ExtensionPoint5"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DALfkBpnEeqN3eJ0RCeYUw" name="ExtensionPoint6"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_HM_eQBpnEeqN3eJ0RCeYUw" name="ExtensionPoint7"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IcCrUBpnEeqN3eJ0RCeYUw" name="ExtensionPoint8"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ja7VcBpnEeqN3eJ0RCeYUw" name="ExtensionPoint9"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_KP3LoBpiEeqN3eJ0RCeYUw" memberEnd="_KP9SQBpiEeqN3eJ0RCeYUw _KP95UBpiEeqN3eJ0RCeYUw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KP7dEBpiEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KP8EIBpiEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_KP9SQBpiEeqN3eJ0RCeYUw" name="mesurer l'indicateur de température" type="_bvyboBphEeqN3eJ0RCeYUw" association="_KP3LoBpiEeqN3eJ0RCeYUw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_KP95UBpiEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_KP3LoBpiEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MJOhABpiEeqN3eJ0RCeYUw" name="Afficher un indicateur de santé de la maison">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r4HiYBpnEeqN3eJ0RCeYUw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_srYyYBpnEeqN3eJ0RCeYUw" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uCxcEBpnEeqN3eJ0RCeYUw" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_u8tUwBpnEeqN3eJ0RCeYUw" name="ExtensionPoint5"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vj3bYBpnEeqN3eJ0RCeYUw" name="ExtensionPoint6"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wet6EBpnEeqN3eJ0RCeYUw" name="ExtensionPoint7"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xQk00BpnEeqN3eJ0RCeYUw" name="ExtensionPoint8"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_x7Tz4BpnEeqN3eJ0RCeYUw" name="ExtensionPoint9"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_y1BDERpnEeqN3eJ0RCeYUw" name="ExtensionPoint10"/>
+      <include xmi:type="uml:Include" xmi:id="_e7V8MBpiEeqN3eJ0RCeYUw" addition="_bvyboBphEeqN3eJ0RCeYUw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_kWDRYBpiEeqN3eJ0RCeYUw" memberEnd="_kWFtoBpiEeqN3eJ0RCeYUw _kWGUsBpiEeqN3eJ0RCeYUw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kWFGkBpiEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
@@ -22,6 +46,9 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_kWFtoBpiEeqN3eJ0RCeYUw" name="afficher l'indicateur de température" type="_MJOhABpiEeqN3eJ0RCeYUw" association="_kWDRYBpiEeqN3eJ0RCeYUw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_kWGUsBpiEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_kWDRYBpiEeqN3eJ0RCeYUw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5BpWsBpiEeqN3eJ0RCeYUw" name="Récupérer les prévisions"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7dE3UBpiEeqN3eJ0RCeYUw" name="Emmettre des notifications"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9KHn8BpiEeqN3eJ0RCeYUw" name="Afficher des conseils"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_DyHPoBpjEeqN3eJ0RCeYUw" memberEnd="_DyIdwBpjEeqN3eJ0RCeYUw _DyIdwRpjEeqN3eJ0RCeYUw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DyH2sBpjEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DyH2sRpjEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
@@ -42,6 +69,58 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_GpN_oBpjEeqN3eJ0RCeYUw" name="afficher des conseils" type="_9KHn8BpiEeqN3eJ0RCeYUw" association="_GpMKcBpjEeqN3eJ0RCeYUw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_GpN_oRpjEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_GpMKcBpjEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dVa_4BplEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de température">
+      <extend xmi:type="uml:Extend" xmi:id="_x7OmQBplEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_x7PNUBplEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GtdfEBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur d'humidité">
+      <extend xmi:type="uml:Extend" xmi:id="_-y6N4BpmEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_-y7cABpmEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KoACABpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de CO2">
+      <extend xmi:type="uml:Extend" xmi:id="_AQC6QBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_AQDhUBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OM4eABpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de COV">
+      <extend xmi:type="uml:Extend" xmi:id="_B8a8gBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_B8a8gRpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SI2kUBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de déplacement d'air">
+      <extend xmi:type="uml:Extend" xmi:id="_DAKRcBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_DALfkBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cjRUwBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de consommation électrique">
+      <extend xmi:type="uml:Extend" xmi:id="_HM-QIBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_HM_eQBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rn6YoBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de production électrique"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_u4kREBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur d'eau chaude restante">
+      <extend xmi:type="uml:Extend" xmi:id="_IcBdMBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_IcCrUBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3J9fgBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de charge de la voiture">
+      <extend xmi:type="uml:Extend" xmi:id="_Ja6uYBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_Ja7VcBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SXKQoBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de température">
+      <extend xmi:type="uml:Extend" xmi:id="_r4G7UBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_r4HiYBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aO96YBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur d'humidité">
+      <extend xmi:type="uml:Extend" xmi:id="_srYLUBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_srYyYBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bwvPIBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de CO2">
+      <extend xmi:type="uml:Extend" xmi:id="_uCw1ABpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_uCxcEBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_duO2kBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de COV">
+      <extend xmi:type="uml:Extend" xmi:id="_u8stsBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_u8tUwBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fuhTUBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de déplacement d'air">
+      <extend xmi:type="uml:Extend" xmi:id="_vj20UBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_vj3bYBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ht7mUBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de consommation électrique">
+      <extend xmi:type="uml:Extend" xmi:id="_wetTABpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_wet6EBpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jvX5oBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de production électrique">
+      <extend xmi:type="uml:Extend" xmi:id="_xQkNwBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_xQk00BpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mWOAEBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur d'eau chaude restante">
+      <extend xmi:type="uml:Extend" xmi:id="_x7TM0BpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_x7Tz4BpnEeqN3eJ0RCeYUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_o_oSUBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de charge de la voiture">
+      <extend xmi:type="uml:Extend" xmi:id="_y1BDEBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_y1BDERpnEeqN3eJ0RCeYUw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-lchABpjEeqxfPZY0DDjCg" name="Indicateur">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_DFMp0BpkEeqxfPZY0DDjCg" name="value" visibility="public">
@@ -211,7 +290,54 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_NZS9kBppEeqpMKShohJFtA" name="" client="_cLbxoBpoEeqpMKShohJFtA" supplier="_T09g0BpmEeqpMKShohJFtA"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_gaPUYBpoEeqpMKShohJFtA" name="Mesurer indicateur Charge de la voiture"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_cq6GcBppEeqpMKShohJFtA" name="" client="_gaPUYBpoEeqpMKShohJFtA" supplier="_T09g0BpmEeqpMKShohJFtA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_q-J64BpvEeqDcPicAvpKEw" name="Recuperer les previsions"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_p6oWcBpxEeqDcPicAvpKEw" name="" client="_q-J64BpvEeqDcPicAvpKEw" supplier="_T09g0BpmEeqpMKShohJFtA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_f7zSoBptEeqDcPicAvpKEw" name="Afficher les indicateurs de la maison">
+      <packagedElement xmi:type="uml:Class" xmi:id="_tCjtgBptEeqDcPicAvpKEw" name="Afficher les mesures"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_A-iTwBpuEeqDcPicAvpKEw" name="Afficher indicateur Temperature"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DpnZ8BpuEeqDcPicAvpKEw" name="Afficher indicateur Humidité"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FISXYBpuEeqDcPicAvpKEw" name="Afficher indicateur CO2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Hk2gcBpuEeqDcPicAvpKEw" name="Afficher indicateur COV"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_I14qgBpuEeqDcPicAvpKEw" name="Afficher indicateur Deplacement d air"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LIMrYBpuEeqDcPicAvpKEw" name="Afficher indicateur Consomation éléctrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MTs1MBpuEeqDcPicAvpKEw" name="Afficher indicateur Production éléctrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NYKi4BpuEeqDcPicAvpKEw" name="Afficher indicateur Eau chaude"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OfGVwBpuEeqDcPicAvpKEw" name="Afficher indicateur Charge de la voiture"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_hz-fwBpuEeqDcPicAvpKEw" name="" client="_DpnZ8BpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_iwpjYBpuEeqDcPicAvpKEw" name="" client="_FISXYBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_j8iuwBpuEeqDcPicAvpKEw" name="" client="_Hk2gcBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_k5e4IBpuEeqDcPicAvpKEw" name="" client="_I14qgBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_lrEtIBpuEeqDcPicAvpKEw" name="" client="_LIMrYBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_mIoy4BpuEeqDcPicAvpKEw" client="_MTs1MBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_nmt6cBpuEeqDcPicAvpKEw" name="" client="_NYKi4BpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_pRnWABpuEeqDcPicAvpKEw" name="" client="_OfGVwBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_BHfmABpvEeqDcPicAvpKEw" name="" client="_A-iTwBpuEeqDcPicAvpKEw" supplier="_tCjtgBptEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_RQXmsBpyEeqDcPicAvpKEw" name="" client="_tCjtgBptEeqDcPicAvpKEw" supplier="_uw4TsBpxEeqDcPicAvpKEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-xs94BpvEeqDcPicAvpKEw" name="Bloquer l'entré a la maison">
+      <packagedElement xmi:type="uml:Class" xmi:id="_40f_oBpvEeqDcPicAvpKEw" name="Limiter à 5 personne pendant les 2 prochaines heures le nombre de personnes présentes dans la maison"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8fLhoBpvEeqDcPicAvpKEw" name="Ne pas faire entrer de nouveaux visiteurs"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_LBkNABpwEeqDcPicAvpKEw" client="_40f_oBpvEeqDcPicAvpKEw" supplier="_23an4BpvEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_MTuYcBpwEeqDcPicAvpKEw" name="" client="_8fLhoBpvEeqDcPicAvpKEw" supplier="_23an4BpvEeqDcPicAvpKEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DrwdEBpwEeqDcPicAvpKEw" name="Manipuler les fenetres">
+      <packagedElement xmi:type="uml:Class" xmi:id="_GQVSoBpwEeqDcPicAvpKEw" name="Ouvrir les fenetres pendant 10 min"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HqI-MBpwEeqDcPicAvpKEw" name="Fermer les fenetres"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_JohWcBpwEeqDcPicAvpKEw" name="" client="_GQVSoBpwEeqDcPicAvpKEw" supplier="_Eu-0oBpwEeqDcPicAvpKEw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_KUHRIBpwEeqDcPicAvpKEw" name="" client="_HqI-MBpwEeqDcPicAvpKEw" supplier="_Eu-0oBpwEeqDcPicAvpKEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wJ05EBpwEeqDcPicAvpKEw" name="Interface Homme Machine">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_T09g0BpmEeqpMKShohJFtA" name="Récupérer des informations"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_0CTb8BpvEeqDcPicAvpKEw" name="Emmetre des notification"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_1PJCgBpvEeqDcPicAvpKEw" name="Afficher des conseil"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_uw4TsBpxEeqDcPicAvpKEw" name="Ecran d'affichage"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_YmNoUBpxEeqDcPicAvpKEw" name="Gestion des portes et fenêtres">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_23an4BpvEeqDcPicAvpKEw" name="Bloquer l'entré a la maison"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Eu-0oBpwEeqDcPicAvpKEw" name="Manipuler les fenetres"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_QILPkBpyEeqDcPicAvpKEw" name="" client="_1PJCgBpvEeqDcPicAvpKEw" supplier="_DYhSoBpdEeqxfPZY0DDjCg"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Dd1QcBpdEeqxfPZY0DDjCg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dd7XEBpdEeqxfPZY0DDjCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -289,17 +415,17 @@
   <Requirements:Requirement xmi:id="_IDESABpkEeqpMKShohJFtA" base_NamedElement="_IDBOsBpkEeqpMKShohJFtA" text="Mesurer le niveau d'eau chaude" base_Class="_IDBOsBpkEeqpMKShohJFtA"/>
   <Requirements:Requirement xmi:id="_M_mdcBpkEeqpMKShohJFtA" base_NamedElement="_M_kBMBpkEeqpMKShohJFtA" text="Mesurer la charge de la batterie du véhicule" base_Class="_M_kBMBpkEeqpMKShohJFtA"/>
   <Requirements:Requirement xmi:id="_KChy4BplEeqpMKShohJFtA" base_NamedElement="_KCfWoBplEeqpMKShohJFtA" text="Le systeme doit mesurer les indicateurs santé de la maison" base_Class="_KCfWoBplEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_T1BLMBpmEeqpMKShohJFtA" base_NamedElement="_T09g0BpmEeqpMKShohJFtA" text="Récupérer des informations sur la santé de la maison&#xD;&#xA;" base_Class="_T09g0BpmEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_is9P0BpmEeqpMKShohJFtA" base_NamedElement="_is6MgBpmEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de température" base_Class="_is6MgBpmEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_T1BLMBpmEeqpMKShohJFtA" base_NamedElement="_T09g0BpmEeqpMKShohJFtA" id="200" text="Récupérer des informations sur la santé de la maison&#xD;&#xA;" base_Class="_T09g0BpmEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_is9P0BpmEeqpMKShohJFtA" base_NamedElement="_is6MgBpmEeqpMKShohJFtA" id="200.1" text="Le systeme doit mesurer l'indicateur de température" base_Class="_is6MgBpmEeqpMKShohJFtA"/>
   <Requirements:Refine xmi:id="_wi0MYBpmEeqpMKShohJFtA" base_DirectedRelationship="_wius0BpmEeqpMKShohJFtA" base_Abstraction="_wius0BpmEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="__ipzUBpnEeqpMKShohJFtA" base_NamedElement="__imwABpnEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur d'humidité " base_Class="__imwABpnEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_GoiQ4BpoEeqpMKShohJFtA" base_NamedElement="_Gof0oBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de CO2" base_Class="_Gof0oBpoEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_LyP8sBpoEeqpMKShohJFtA" base_NamedElement="_LyOukBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de COV&#xD;&#xA;" base_Class="_LyOukBpoEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_ODrMwBpoEeqpMKShohJFtA" base_NamedElement="_ODpXkBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de déplacement d'air&#xD;&#xA;" base_Class="_ODpXkBpoEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_SCzUwBpoEeqpMKShohJFtA" base_NamedElement="_SCw4gBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de consomation éléctrique" base_Class="_SCw4gBpoEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_aHfj8BpoEeqpMKShohJFtA" base_NamedElement="_aHduwBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de production éléctrique" base_Class="_aHduwBpoEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_cLeN4BpoEeqpMKShohJFtA" base_NamedElement="_cLbxoBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur d'eau chaude " base_Class="_cLbxoBpoEeqpMKShohJFtA"/>
-  <Requirements:Requirement xmi:id="_gaRwoBpoEeqpMKShohJFtA" base_NamedElement="_gaPUYBpoEeqpMKShohJFtA" text="Le systeme doit mesurer l'indicateur de charge la voiture" base_Class="_gaPUYBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="__ipzUBpnEeqpMKShohJFtA" base_NamedElement="__imwABpnEeqpMKShohJFtA" id="200.2" text="Le systeme doit mesurer l'indicateur d'humidité " base_Class="__imwABpnEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_GoiQ4BpoEeqpMKShohJFtA" base_NamedElement="_Gof0oBpoEeqpMKShohJFtA" id="200.4" text="Le systeme doit mesurer l'indicateur de CO2" base_Class="_Gof0oBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_LyP8sBpoEeqpMKShohJFtA" base_NamedElement="_LyOukBpoEeqpMKShohJFtA" id="200.5" text="Le systeme doit mesurer l'indicateur de COV&#xD;&#xA;" base_Class="_LyOukBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_ODrMwBpoEeqpMKShohJFtA" base_NamedElement="_ODpXkBpoEeqpMKShohJFtA" id="200.9" text="Le systeme doit mesurer l'indicateur de déplacement d'air&#xD;&#xA;" base_Class="_ODpXkBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_SCzUwBpoEeqpMKShohJFtA" base_NamedElement="_SCw4gBpoEeqpMKShohJFtA" id="200.6" text="Le systeme doit mesurer l'indicateur de consomation éléctrique" base_Class="_SCw4gBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_aHfj8BpoEeqpMKShohJFtA" base_NamedElement="_aHduwBpoEeqpMKShohJFtA" id="200.7" text="Le systeme doit mesurer l'indicateur de production éléctrique" base_Class="_aHduwBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_cLeN4BpoEeqpMKShohJFtA" base_NamedElement="_cLbxoBpoEeqpMKShohJFtA" id="200.10" text="Le systeme doit mesurer l'indicateur d'eau chaude " base_Class="_cLbxoBpoEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_gaRwoBpoEeqpMKShohJFtA" base_NamedElement="_gaPUYBpoEeqpMKShohJFtA" id="200.8" text="Le systeme doit mesurer l'indicateur de charge la voiture" base_Class="_gaPUYBpoEeqpMKShohJFtA"/>
   <Requirements:Refine xmi:id="_5Tu9gBpoEeqpMKShohJFtA" base_DirectedRelationship="_5To24BpoEeqpMKShohJFtA" base_Abstraction="_5To24BpoEeqpMKShohJFtA"/>
   <Requirements:Refine xmi:id="_D3IDwBppEeqpMKShohJFtA" base_DirectedRelationship="_D3EZYBppEeqpMKShohJFtA" base_Abstraction="_D3EZYBppEeqpMKShohJFtA"/>
   <Requirements:Refine xmi:id="_GcSvMBppEeqpMKShohJFtA" base_DirectedRelationship="_GcNPoBppEeqpMKShohJFtA" base_Abstraction="_GcNPoBppEeqpMKShohJFtA"/>
@@ -308,4 +434,42 @@
   <Requirements:Refine xmi:id="_MXZbsBppEeqpMKShohJFtA" base_DirectedRelationship="_MXUjMBppEeqpMKShohJFtA" base_Abstraction="_MXUjMBppEeqpMKShohJFtA"/>
   <Requirements:Refine xmi:id="_NZX2EBppEeqpMKShohJFtA" base_DirectedRelationship="_NZS9kBppEeqpMKShohJFtA" base_Abstraction="_NZS9kBppEeqpMKShohJFtA"/>
   <Requirements:Refine xmi:id="_cq--8BppEeqpMKShohJFtA" base_DirectedRelationship="_cq6GcBppEeqpMKShohJFtA" base_Abstraction="_cq6GcBppEeqpMKShohJFtA"/>
+  <Requirements:Requirement xmi:id="_tCqbMBptEeqDcPicAvpKEw" base_NamedElement="_tCjtgBptEeqDcPicAvpKEw" id="301" text=" Le systeme doit afficher les indicateurs sante de la maison" base_Class="_tCjtgBptEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_A-mlMBpuEeqDcPicAvpKEw" base_NamedElement="_A-iTwBpuEeqDcPicAvpKEw" id="301.1" text="Le systeme doit afficher l'indicateur temperature" base_Class="_A-iTwBpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_DprrYBpuEeqDcPicAvpKEw" base_NamedElement="_DpnZ8BpuEeqDcPicAvpKEw" id="301.2" text="Le systeme doit afficher l'indicateur d'humidté" base_Class="_DpnZ8BpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_FIVasBpuEeqDcPicAvpKEw" base_NamedElement="_FISXYBpuEeqDcPicAvpKEw" id="301.3" text="Le systeme doit afficher l'indicateur de CO2" base_Class="_FISXYBpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_Hk5jwBpuEeqDcPicAvpKEw" base_NamedElement="_Hk2gcBpuEeqDcPicAvpKEw" id="301.4" text="Le systeme doit afficher l'indicateur de COV" base_Class="_Hk2gcBpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_I18U4BpuEeqDcPicAvpKEw" base_NamedElement="_I14qgBpuEeqDcPicAvpKEw" id="301.5" text="Le systeme doit afficher l'indicateur Deplacement d'air" base_Class="_I14qgBpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_LIPusBpuEeqDcPicAvpKEw" base_NamedElement="_LIMrYBpuEeqDcPicAvpKEw" id="301.6" text="Le systeme doit afficher l'indicateur consomation electrique" base_Class="_LIMrYBpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_MTuqYBpuEeqDcPicAvpKEw" base_NamedElement="_MTs1MBpuEeqDcPicAvpKEw" id="301.7" text="Le systeme doit afficher l'indicateur de production éléctrique" base_Class="_MTs1MBpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_NYNmMBpuEeqDcPicAvpKEw" base_NamedElement="_NYKi4BpuEeqDcPicAvpKEw" id="301.8" text="Le systeme doit afficher l'indicateur d'eau chaude" base_Class="_NYKi4BpuEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_OfIyABpuEeqDcPicAvpKEw" base_NamedElement="_OfGVwBpuEeqDcPicAvpKEw" id="301.9" text="Le systeme doit afficher l'indicateur de charge de la batterie la voiture" base_Class="_OfGVwBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_h0I30BpuEeqDcPicAvpKEw" base_DirectedRelationship="_hz-fwBpuEeqDcPicAvpKEw" base_Abstraction="_hz-fwBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_iwvqABpuEeqDcPicAvpKEw" base_DirectedRelationship="_iwpjYBpuEeqDcPicAvpKEw" base_Abstraction="_iwpjYBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_j8pccBpuEeqDcPicAvpKEw" base_DirectedRelationship="_j8iuwBpuEeqDcPicAvpKEw" base_Abstraction="_j8iuwBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_k5kXsBpuEeqDcPicAvpKEw" base_DirectedRelationship="_k5e4IBpuEeqDcPicAvpKEw" base_Abstraction="_k5e4IBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_lrKMsBpuEeqDcPicAvpKEw" base_DirectedRelationship="_lrEtIBpuEeqDcPicAvpKEw" base_Abstraction="_lrEtIBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_mItrYBpuEeqDcPicAvpKEw" base_DirectedRelationship="_mIoy4BpuEeqDcPicAvpKEw" base_Abstraction="_mIoy4BpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_nmyy8BpuEeqDcPicAvpKEw" base_DirectedRelationship="_nmt6cBpuEeqDcPicAvpKEw" base_Abstraction="_nmt6cBpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_pRs1kBpuEeqDcPicAvpKEw" base_DirectedRelationship="_pRnWABpuEeqDcPicAvpKEw" base_Abstraction="_pRnWABpuEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_BHlFkBpvEeqDcPicAvpKEw" base_DirectedRelationship="_BHfmABpvEeqDcPicAvpKEw" base_Abstraction="_BHfmABpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_q-MXIBpvEeqDcPicAvpKEw" base_NamedElement="_q-J64BpvEeqDcPicAvpKEw" id="200.3" text="Le systeme doit recuperer les previsions pour le / la semaine" base_Class="_q-J64BpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_0CV4MBpvEeqDcPicAvpKEw" base_NamedElement="_0CTb8BpvEeqDcPicAvpKEw" id="400" text="Le systeme doit pouvoir emmetre des informations concernant divers element" base_Class="_0CTb8BpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_1PK3sBpvEeqDcPicAvpKEw" base_NamedElement="_1PJCgBpvEeqDcPicAvpKEw" id="302" text="Le systeme doit pouvoir afficher des conseil " base_Class="_1PJCgBpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_23dEIBpvEeqDcPicAvpKEw" base_NamedElement="_23an4BpvEeqDcPicAvpKEw" id="501" text="Le systeme doit pouvoir bloqué l'entrée de la maison " base_Class="_23an4BpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_40ib4BpvEeqDcPicAvpKEw" base_NamedElement="_40f_oBpvEeqDcPicAvpKEw" id="501.1" text="Le systeme doit limiter à 5 personne pendant les 2 prochaines heures le nombre de personnes présentes dans la maison" base_Class="_40f_oBpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_8fN94BpvEeqDcPicAvpKEw" base_NamedElement="_8fLhoBpvEeqDcPicAvpKEw" id="501.2" text="Le systeme doit ne pas faire entrer de nouveaux visiteurs" base_Class="_8fLhoBpvEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_EvBQ4BpwEeqDcPicAvpKEw" base_NamedElement="_Eu-0oBpwEeqDcPicAvpKEw" id="502" text="Le systeme doit manipuler les fenetres" base_Class="_Eu-0oBpwEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_GQXH0BpwEeqDcPicAvpKEw" base_NamedElement="_GQVSoBpwEeqDcPicAvpKEw" id="502.1" text="Le systeme doit ouvrir les fenetres pendant 10 min" base_Class="_GQVSoBpwEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_HqLacBpwEeqDcPicAvpKEw" base_NamedElement="_HqI-MBpwEeqDcPicAvpKEw" id="502.2" text="Le systeme doit fermer les fenetres" base_Class="_HqI-MBpwEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_Jom2ABpwEeqDcPicAvpKEw" base_DirectedRelationship="_JohWcBpwEeqDcPicAvpKEw" base_Abstraction="_JohWcBpwEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_KULikBpwEeqDcPicAvpKEw" base_DirectedRelationship="_KUHRIBpwEeqDcPicAvpKEw" base_Abstraction="_KUHRIBpwEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_LBpskBpwEeqDcPicAvpKEw" base_DirectedRelationship="_LBkNABpwEeqDcPicAvpKEw" base_Abstraction="_LBkNABpwEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_MTyC0BpwEeqDcPicAvpKEw" base_DirectedRelationship="_MTuYcBpwEeqDcPicAvpKEw" base_Abstraction="_MTuYcBpwEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_wJ2uQBpwEeqDcPicAvpKEw" base_NamedElement="_wJ05EBpwEeqDcPicAvpKEw" id="100" text="Permet à l'utilisateur de superviser Alfred" base_Class="_wJ05EBpwEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_YmQEkBpxEeqDcPicAvpKEw" base_NamedElement="_YmNoUBpxEeqDcPicAvpKEw" id="500" text="Permet la gestion de l'ouverture et de la fermeture des fenêtres et portes" base_Class="_YmNoUBpxEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_p6t2ABpxEeqDcPicAvpKEw" base_DirectedRelationship="_p6oWcBpxEeqDcPicAvpKEw" base_Abstraction="_p6oWcBpxEeqDcPicAvpKEw"/>
+  <Requirements:Requirement xmi:id="_uw6v8BpxEeqDcPicAvpKEw" base_NamedElement="_uw4TsBpxEeqDcPicAvpKEw" id="300" text="Permet à l'utilisateur d'avoir accès à des informations" base_Class="_uw4TsBpxEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_QIQvIBpyEeqDcPicAvpKEw" base_DirectedRelationship="_QILPkBpyEeqDcPicAvpKEw" base_Abstraction="_QILPkBpyEeqDcPicAvpKEw"/>
+  <Requirements:Refine xmi:id="_RQaqABpyEeqDcPicAvpKEw" base_DirectedRelationship="_RQXmsBpyEeqDcPicAvpKEw" base_Abstraction="_RQXmsBpyEeqDcPicAvpKEw"/>
 </xmi:XMI>
