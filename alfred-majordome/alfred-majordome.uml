@@ -8,41 +8,6 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_V_j-4BpgEeqxfPZY0DDjCg" name="Block13"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_KP3LoBpiEeqN3eJ0RCeYUw" memberEnd="_KP9SQBpiEeqN3eJ0RCeYUw _KP95UBpiEeqN3eJ0RCeYUw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KP7dEBpiEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KP8EIBpiEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_KP9SQBpiEeqN3eJ0RCeYUw" name="mesurer l'indicateur de température" type="_bvyboBphEeqN3eJ0RCeYUw" association="_KP3LoBpiEeqN3eJ0RCeYUw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_KP95UBpiEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_KP3LoBpiEeqN3eJ0RCeYUw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_kWDRYBpiEeqN3eJ0RCeYUw" memberEnd="_kWFtoBpiEeqN3eJ0RCeYUw _kWGUsBpiEeqN3eJ0RCeYUw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kWFGkBpiEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kWFGkRpiEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_kWFtoBpiEeqN3eJ0RCeYUw" name="afficher l'indicateur de température" type="_MJOhABpiEeqN3eJ0RCeYUw" association="_kWDRYBpiEeqN3eJ0RCeYUw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_kWGUsBpiEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_kWDRYBpiEeqN3eJ0RCeYUw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_DyHPoBpjEeqN3eJ0RCeYUw" memberEnd="_DyIdwBpjEeqN3eJ0RCeYUw _DyIdwRpjEeqN3eJ0RCeYUw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DyH2sBpjEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DyH2sRpjEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_DyIdwBpjEeqN3eJ0RCeYUw" name="récupérer les prévisions" type="_5BpWsBpiEeqN3eJ0RCeYUw" association="_DyHPoBpjEeqN3eJ0RCeYUw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_DyIdwRpjEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_DyHPoBpjEeqN3eJ0RCeYUw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_FCLJUBpjEeqN3eJ0RCeYUw" memberEnd="_FCMXchpjEeqN3eJ0RCeYUw _FCNlkBpjEeqN3eJ0RCeYUw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FCMXcBpjEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FCMXcRpjEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_FCMXchpjEeqN3eJ0RCeYUw" name="emmettre des notifications" type="_7dE3UBpiEeqN3eJ0RCeYUw" association="_FCLJUBpjEeqN3eJ0RCeYUw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_FCNlkBpjEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_FCLJUBpjEeqN3eJ0RCeYUw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_GpMKcBpjEeqN3eJ0RCeYUw" memberEnd="_GpN_oBpjEeqN3eJ0RCeYUw _GpN_oRpjEeqN3eJ0RCeYUw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GpNYkBpjEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GpNYkRpjEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_GpN_oBpjEeqN3eJ0RCeYUw" name="afficher des conseils" type="_9KHn8BpiEeqN3eJ0RCeYUw" association="_GpMKcBpjEeqN3eJ0RCeYUw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_GpN_oRpjEeqN3eJ0RCeYUw" name="système" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_GpMKcBpjEeqN3eJ0RCeYUw"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-lchABpjEeqxfPZY0DDjCg" name="Indicateur">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_DFMp0BpkEeqxfPZY0DDjCg" name="value" visibility="public">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
@@ -66,7 +31,9 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_u4kREBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur d'eau chaude restante">
         <extend xmi:type="uml:Extend" xmi:id="_IcBdMBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_IcCrUBpnEeqN3eJ0RCeYUw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_9KHn8BpiEeqN3eJ0RCeYUw" name="Afficher des conseils"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_9KHn8BpiEeqN3eJ0RCeYUw" name="Afficher des conseils">
+        <extend xmi:type="uml:Extend" xmi:id="_njEAgBrREeqsJKwcleFFtw" extendedCase="_fZWucBrREeqsJKwcleFFtw" extensionLocation="_njEnkBrREeqsJKwcleFFtw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_3J9fgBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de charge de la voiture">
         <extend xmi:type="uml:Extend" xmi:id="_Ja6uYBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_Ja7VcBpnEeqN3eJ0RCeYUw"/>
       </packagedElement>
@@ -82,11 +49,14 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_bwvPIBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur de CO2">
         <extend xmi:type="uml:Extend" xmi:id="_uCw1ABpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_uCxcEBpnEeqN3eJ0RCeYUw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7dE3UBpiEeqN3eJ0RCeYUw" name="Emmettre des notifications"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_7dE3UBpiEeqN3eJ0RCeYUw" name="Emmettre des notifications">
+        <extend xmi:type="uml:Extend" xmi:id="_mZS8EBrREeqsJKwcleFFtw" extendedCase="_fZWucBrREeqsJKwcleFFtw" extensionLocation="_mZVYUBrREeqsJKwcleFFtw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_cjRUwBpmEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de consommation électrique">
         <extend xmi:type="uml:Extend" xmi:id="_HM-QIBpnEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_HM_eQBpnEeqN3eJ0RCeYUw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_MJOhABpiEeqN3eJ0RCeYUw" name="Afficher un indicateur de santé de la maison">
+        <extend xmi:type="uml:Extend" xmi:id="_k6BhsBrREeqsJKwcleFFtw" extendedCase="_fZWucBrREeqsJKwcleFFtw" extensionLocation="_k6BhsRrREeqsJKwcleFFtw"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r4HiYBpnEeqN3eJ0RCeYUw" name="ExtensionPoint2"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_srYyYBpnEeqN3eJ0RCeYUw" name="ExtensionPoint3"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uCxcEBpnEeqN3eJ0RCeYUw" name="ExtensionPoint4"/>
@@ -128,7 +98,9 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_dVa_4BplEeqN3eJ0RCeYUw" name="Mesurer l'indicateur de température">
         <extend xmi:type="uml:Extend" xmi:id="_x7OmQBplEeqN3eJ0RCeYUw" extendedCase="_bvyboBphEeqN3eJ0RCeYUw" extensionLocation="_x7PNUBplEeqN3eJ0RCeYUw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5BpWsBpiEeqN3eJ0RCeYUw" name="Récupérer les prévisions"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5BpWsBpiEeqN3eJ0RCeYUw" name="Récupérer les prévisions">
+        <extend xmi:type="uml:Extend" xmi:id="_iy1LsBrREeqsJKwcleFFtw" extendedCase="_fZWucBrREeqsJKwcleFFtw" extensionLocation="_iy1LsRrREeqsJKwcleFFtw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_aO96YBpnEeqN3eJ0RCeYUw" name="Afficher l'indicateur d'humidité">
         <extend xmi:type="uml:Extend" xmi:id="_srYLUBpnEeqN3eJ0RCeYUw" extendedCase="_MJOhABpiEeqN3eJ0RCeYUw" extensionLocation="_srYyYBpnEeqN3eJ0RCeYUw"/>
       </packagedElement>
@@ -161,8 +133,14 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_SjX48BptEeqN3eJ0RCeYUw" name="Fermer les fenêtres">
         <extend xmi:type="uml:Extend" xmi:id="_bi_fUBptEeqN3eJ0RCeYUw" extendedCase="_6KrPwBpsEeqN3eJ0RCeYUw" extensionLocation="_bi_fURptEeqN3eJ0RCeYUw"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_fZWucBrREeqsJKwcleFFtw" name="Lire une information">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iy1LsRrREeqsJKwcleFFtw" name="ExtensionPoint1"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_k6BhsRrREeqsJKwcleFFtw" name="ExtensionPoint2"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mZVYUBrREeqsJKwcleFFtw" name="ExtensionPoint3"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_njEnkBrREeqsJKwcleFFtw" name="ExtensionPoint4"/>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_4CJTcBpgEeqN3eJ0RCeYUw" name="Alfred"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_4CJTcBpgEeqN3eJ0RCeYUw" name="Utilisateur"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_AxEU8BptEeqN3eJ0RCeYUw" memberEnd="_AxFjERptEeqN3eJ0RCeYUw _AxGKIBptEeqN3eJ0RCeYUw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AxE8ABptEeqN3eJ0RCeYUw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AxFjEBptEeqN3eJ0RCeYUw" key="nature" value="UML_Nature"/>
@@ -211,6 +189,13 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_NZS9kBppEeqpMKShohJFtA" name="" client="_cLbxoBpoEeqpMKShohJFtA" supplier="_T09g0BpmEeqpMKShohJFtA"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_gaPUYBpoEeqpMKShohJFtA" name="Mesurer indicateur Charge de la voiture"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_cq6GcBppEeqpMKShohJFtA" name="" client="_gaPUYBpoEeqpMKShohJFtA" supplier="_T09g0BpmEeqpMKShohJFtA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_oYoWkBrREeqsJKwcleFFtw" memberEnd="_oYqy0hrREeqsJKwcleFFtw _oYqy0xrREeqsJKwcleFFtw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oYqy0BrREeqsJKwcleFFtw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oYqy0RrREeqsJKwcleFFtw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_oYqy0hrREeqsJKwcleFFtw" name="lire une information" type="_fZWucBrREeqsJKwcleFFtw" association="_oYoWkBrREeqsJKwcleFFtw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_oYqy0xrREeqsJKwcleFFtw" name="utilisateur" type="_4CJTcBpgEeqN3eJ0RCeYUw" association="_oYoWkBrREeqsJKwcleFFtw"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Dd1QcBpdEeqxfPZY0DDjCg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dd7XEBpdEeqxfPZY0DDjCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
