@@ -12,7 +12,7 @@ Le diagramme d'exigences permet de mettre en forme les exigences explicites, et 
 
 ## Diagramme de Cas d'Utilisation
 
-TODO
+Le diagramme de cas d'utilisation permet de modéliser les différentes
 
 ![UseCase](https://github.com/DupuyAntoine/ingenierie_sys/blob/master/alfred-majordome/UseCase.PNG)
 
@@ -26,11 +26,13 @@ TODO
 
 TODO
 
-![InternalBlock](https://github.com/DupuyAntoine/ingenierie_sys/blob/master/alfred-majordome/InternalBlock.png)
+![InternalBlock](https://github.com/DupuyAntoine/ingenierie_sys/blob/block-diagram/alfred-majordome/InternalBlock.PNG)
 
 ## Diagramme d'Etat
 
 TODO
+
+![StateMachine](https://github.com/DupuyAntoine/ingenierie_sys/blob/block-diagram/alfred-majordome/StateMachine.PNG)
 
 
 ------------------------------------------------------------------------
