@@ -4,7 +4,9 @@
 
 **Travail réalisé par :** Thomas COLETTE, Antoine DUPUY et Corentin GRANDCHAMPS
 
-## Diagramme d'Exigences 
+## Diagramme d'Exigences
+
+*Branche : Requierement-diagram*
 
 Le diagramme d'exigences permet de mettre en forme les exigences explicites, et implicites nécessaires à la modélisation de la solution. Dans le cas du Majordome Alfred, il est impératif d'exiger une interface homme machine (boitier par exemple) qui permet à l'utilisateur de faire de la récupération de données depuis des capteurs et de les afficher. Les exigences sont donc ici établies et détaillées.
 
@@ -12,11 +14,15 @@ Le diagramme d'exigences permet de mettre en forme les exigences explicites, et 
 
 ## Diagramme de Cas d'Utilisation
 
+*Branche : Master*
+
 Le diagramme de cas d'utilisation permet de modéliser les différentes les différentes intéractions entre les acteurs extérieurs et le système ainsi que les intéractions internes au système en lui-même. Dans notre cas, un utilisateur peut utiliser le système afin de lire différentes informations calculées en interne et peut aussi interagir sur le système de sécurité de la maison comprenant les portes et les fenêtres.
 
 ![UseCase](https://github.com/DupuyAntoine/ingenierie_sys/blob/master/alfred-majordome/UseCase.PNG)
 
 ## Diagramme de Définition de Bloc
+
+*Branche : Master*
 
 Le diagramme de bloc permet de discriminer les différents blocs du système. Chaque bloc représentant un élément du système comprenant ses différents attributs et fonctions. Dans notre cas, il nous a ainsi été possible de déterminer l'utilité de chaque composant ainsi que leurs connexions entre eux. Il permet ainsi d'avoir une vision globale du système.
 
@@ -24,11 +30,15 @@ Le diagramme de bloc permet de discriminer les différents blocs du système. Ch
 
 ## Diagramme de Blocs Internes
 
+*Branche : Master*
+
 Le diagramme de blocs internes permet de se focaliser sur un bloc (du diagramme précédent) du système. Il permet de modéliser les différents composants de ce bloc ainsi que leurs connexions internes et externes avec les autres éléments du système par un système de ports. Dans notre cas, nous avons choisi de modéliser le bloc "Page" représentant une instance d'une page de l'interface du système.
 
 ![InternalBlock](https://github.com/DupuyAntoine/ingenierie_sys/blob/block-diagram/alfred-majordome/InternalBlock.PNG)
 
 ## Diagramme d'Etat
+
+*Branche : Master*
 
 Le diagramme d'état permet de modéliser les différents états d'un système et les actions permettant le changement de ces états. Dans notre cas, nous avons choisi de modéliser le diagramme d'état du système de sécurité de l'entrée de la maison avec ses interactions avec les portes.
 
